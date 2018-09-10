@@ -1,0 +1,7 @@
+Notes:
+- ONLY work on files in your folder
+- Modified git sequence:
+    - New Step: git pull origin master
+    - git add .
+    - git commit -m 'message text'
+    - git push origin master
