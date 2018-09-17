@@ -1,3 +1,50 @@
+Every feature you add (EDA, Modeling, Graphs, whatever) should have its own branch.
+
+When you've completed the work on the feature, you should commit and make a pull request to master.
+
+Once the feature branch has been merged to master, you can delete the old branch off of your computer.
+
+
+
+Creating a branch for a new feature:
+- git pull origin master
+- git checkout -b feature-branch-name-here
+
+
+Committing changes and making a pull request to merge with master:
+- on your feature branch: git commit -m 'message'
+- Go to the project repository and deal with any pull requests.
+    https://git.generalassemb.ly/gerket/project-4
+    - Pull Requests tab has any number other than 0
+    - Click on the name of the pull request
+    - Read comment, see if any merge conflicts exist, maybe look at the code idk
+    - If everything's good, confirm the pull and merge
+- git checkout master
+- git pull origin master
+- git checkout feature-branch-name-here
+- git merge master
+    - you probably need a message here. Either add " -m 'message contents' " to the line above or if that doesn't work execute the line above and enter your message into the text editor that comes up, save, and keep going.
+- git push origin feature-branch-name-here
+- go to the Github repository website, create a pull request, and have another team member review and merge your PR.
+    https://git.generalassemb.ly/gerket/project-4
+    - click on "new pull request" button
+    - *IMPORTANT* 'base fork' needs to be gerket/project 4. Once you change this it should reload and only have 'base' and 'compare' options. 'compare' should be 'feature-branch-name-here'.
+    - create pull request / describe your changes (whichever came first) and then message the group to have someone else check your work / accept your pull
+
+
+Deleting your old branch:
+- git checkout master
+- git branch -D feature-branch-name-here
+- git pull origin master
+
+
+
+
+
+
+
+
+**OLD**
 Notes:
 - ONLY work on files in your folder
 - Modified git sequence:
