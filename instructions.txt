@@ -12,7 +12,8 @@ Creating a branch for a new feature:
 
 
 Committing changes and making a pull request to merge with master:
-- on your feature branch: git commit -m 'message'
+- on your feature branch: git add .
+- git commit -m 'message'
 - Go to the project repository and deal with any pull requests.
     https://git.generalassemb.ly/gerket/project-4
     - Pull Requests tab has any number other than 0
