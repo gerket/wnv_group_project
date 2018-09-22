@@ -1,3 +1,18 @@
+# Project 4 Filetree
+- ``/assets/``: All of the .csv data and output that we generated
+- ``/emma/``: Emma York's working directory
+- ``/tk/``: Tom Kelly's working directory
+- ``/tomg/``: Tom Gerke's working directory
+- ``/varan/``: Varan Sachi's working directory
+- `Final Eda.ipynb`: The final version of the EDA that we implemented
+- `Modeling.ipynb`: The final version of the modeling that we implemented
+- `instructions.txt`: Instructions for how to use github with branches and not step on each others' toes
+
+
+
+
+
+
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Kaggle Competition - Starter
 
 ## Introduction
